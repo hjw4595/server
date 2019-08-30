@@ -11,3 +11,5 @@ login 후 생성
 
 서버와 정보를 주고 받기 위한 prisma client
 datamodel 작성
+
+jwt사용- 회원인증 
