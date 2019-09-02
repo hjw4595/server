@@ -13,3 +13,5 @@ login 후 생성
 datamodel 작성
 
 jwt사용- 회원인증 
+
+좋아요,유저검색
