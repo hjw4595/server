@@ -1,4 +1,3 @@
-
 import jwt from "jsonwebtoken";
 import { adjectives, nouns } from "./words";
 import nodemailer from "nodemailer";
