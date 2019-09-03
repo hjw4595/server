@@ -1,6 +1,6 @@
-export const isAuthenticated = (request) => {
-    if(!request.user){
-        throw Error("need to log-in to the this acrion")
+export const isAuthenticated = request => {
+    if (!request.user) {
+      throw Error("You need to log in to perform this action");
     }
     return;
-}
+  };
