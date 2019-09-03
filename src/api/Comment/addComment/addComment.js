@@ -2,7 +2,7 @@ import { isAuthenticated } from "../../../middlewes";
 import { prisma } from "../../../../generated/prisma-client";
 
 export default{
-    Query:{
+    Mutation:{
         addComment: async(_,args, {request}) => {
             isAuthenticated(request);
             const {text, postId} = args;
