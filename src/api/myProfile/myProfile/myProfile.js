@@ -5,7 +5,7 @@ export default{
         myProfile:(_,___,{request, isAuthenticated})=>{
             isAuthenticated(requsest);
             cosnt (uset) = request;
-            return prisma.user({id:user.id});
+            return prisma.user({id:user.id}).$fragment;
         }
     }
 }
