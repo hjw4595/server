@@ -4,7 +4,7 @@ export default{
     Query:{
         myProfile:(_,___,{request, isAuthenticated})=>{
             isAuthenticated(requsest);
-            cosnt (uset) = request;
+            cosnt (user) = request;
             return prisma.user({id:user.id}).$fragment;
         }
     }

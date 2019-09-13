@@ -3,7 +3,7 @@ import { COMMENT_FRAGMENT } from "../../../fragments";
 
 export default {
   Query: {
-    seeFullPost: async (_, args) => {
+    allUserPost: async (_, args) => {
       const { id } = args;
       const post = await prisma.post({ id });
       const comments = await prisma
