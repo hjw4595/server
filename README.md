@@ -11,7 +11,7 @@ login 후 생성
 
 서버와 정보를 주고 받기 위한 prisma client
 datamodel 작성
-prisma custom field(computed field)
+prisma custom field(computed field) -> 커스텀  ex) fullname = firstname + lastname
 
 기능 구현 
 jwt사용- 회원인증 
