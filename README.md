@@ -21,4 +21,4 @@ jwt사용- 회원인증
 팔로우, 팔로워 확인 
 좋아요 컴포넌트 파일 
 
-front end set up
+front end set up(react)
