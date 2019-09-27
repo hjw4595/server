@@ -1,11 +1,4 @@
-type FullPost {
-  post: Post!
-  files: [File!]!
-  comments: [Comment!]!
-  likeCount: Int!
-  user: User!
-}
 
 type Query {
-  allUserPost(id: String!): FullPost!
+  allUserPost(id: String!): Post!
 }
